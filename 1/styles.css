@@ -1,0 +1,26 @@
+table {
+border-collapse: collapse;
+width:100%;
+}
+th,td{
+    border:1px solid #ddd;
+    padding:8px;
+    text-align: center;
+}
+th{
+    background-color: #DCDCDC;
+}
+body{
+    font-family:'Arial',sans-serif;
+    
+}
+.header{
+    text-align: center;
+}
+.logo{
+    max-width: 600px;
+    max-height: 600px;
+}
+h1,h3{
+    text-align: center;
+}
