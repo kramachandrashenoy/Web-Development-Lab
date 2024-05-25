@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Most Important line is the display:flex which creates two separate divisions in the page -->
+    <style>
+        
+        body {
+            font-family: sans-serif;
+            display: flex; 
+            justify-content: space-evenly;
+          }
+          #sec-1 {
+            width: 50%;
+          }
+          #sec-2 {
+            width: 25%;
+          }
+          
+        .skill-list li, .lang-list li {
+            display: inline-block;
+            border: solid 1px black;
+            background-color: whitesmoke;
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+          }
+    </style>
+</head>
+<body>
+    <section id="sec-1">
+        <h1>K Ramachandra Shenoy</h1>
+        <p>I'm a B.E junior who is passionate to explore new domains in the field of Computer Science</p>
+        <div>
+            <h3>Education</h3>
+            <div>
+                <h4>JSSSTU,Mysuru</h4>
+                <i><p>B.E in CSE</p></i>
+                <p>2021-ongoing</p>
+                <p>CGPA- <b>9.61</b></p>
+            </div>
+            <div>
+                <h4>Vagdevi PU College</h4>
+                <i><P>PUC</P></i>
+                <p>2019-2021</p>
+                <p>Percentage-100</p>
+            </div>
+        </div>
+        <div>
+            <h3>Projects</h3>
+            <div>
+                <h4>Brain Tumor classification</h4>
+                <p>The project delas with scanning the MRI images and predicting whether the patient has brain tumor or not.</p>
+            </div>
+        </div>
+        <div>
+            <h3>Experience</h3>
+            <div>
+                <h4>Mentee</h4>
+                <p>I am mentee at sushiksha</p>
+            </div>
+        </div>
+    </section>
+    <section id="sec-2">
+        <div><br><p>Address:</p>
+            <address>
+                11A/80, Vijayashreepura, Mysuru
+            </address>
+            <p>Contact number-9611137160</p>
+            <p><a href="https://github.com/kramachandrashenoy?tab=repositories">Github</a></p>
+            <p><a href="https://www.linkedin.com/in/k-ramachandra-shenoy-9611137160phno/">LinkedIn</a></p>
+        </div>
+        <div>
+            <h3>Skills</h3>
+            <ul class="skill-list">
+                <li>ML</li>
+                <li>DL</li>
+                <li>DSA</li>
+                <li>Python</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Languages</h3>
+            <ul class="lang-list">
+                <li>Konkani</li>
+                <li>English</li>
+                <li>Kannada</li>
+            </ul>
+        </div>
+    </section>
+    
+</body>
+</html>
